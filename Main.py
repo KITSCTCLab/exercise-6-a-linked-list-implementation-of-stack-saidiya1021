@@ -28,7 +28,7 @@ class Stack:
     """
     It prints all the elements of stack.
     """
-    for i in range temp:
+    for i in temp:
       print(self.data)
 
 
