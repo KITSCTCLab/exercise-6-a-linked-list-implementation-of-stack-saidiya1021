@@ -7,12 +7,13 @@ class Node:
 class Stack:
   def __init__(self):
     self.head = None
+    self.stack=[]
 
   def push(self, data) -> None:
     new_node=self.data
     if self.head != "None":
       new_node.next=self.head
-      new_node.append()
+      self.stack.append(new_node)
     else:
       new_node.next=None
 
@@ -29,8 +30,8 @@ class Stack:
     """
     It prints all the elements of stack.
     """
-    for i in temp:
-      print(self.data)
+    
+      print(self.stack)
 
 
 # Do not change the following code
