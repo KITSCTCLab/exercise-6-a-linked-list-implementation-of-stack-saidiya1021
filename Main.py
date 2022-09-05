@@ -14,8 +14,8 @@ class Stack:
    self.head=new_node
 
   def pop(self) -> None:
-  if not self.head is None:
-    self.head=self.head.next
+    if not self.head is None:
+      self.head=self.head.next
   
   def status(self):
     """
