@@ -23,17 +23,16 @@ class Stack:
       temp=self.head
       self.head=temp.next
       temp.pop()
-    else:
-      return False
+   
 
   def status(self):
     """
     It prints all the elements of stack.
     """
+    for i in range self.stack:
+      print(self.stack[i]"=>")
+
     
-      print(self.stack)
-
-
 # Do not change the following code
 stack = Stack()
 operations = []
