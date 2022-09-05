@@ -9,9 +9,10 @@ class Stack:
     self.head = None
 
   def push(self, data) -> None:
-    new_node=data
+    new_node=self.data
     if self.head != "None":
       new_node.next=self.head
+      new_node.append()
     else:
       new_node.next=None
 
@@ -20,7 +21,7 @@ class Stack:
     if self.head !="None":
       temp=self.head
       self.head=temp.next
-      temp.pop(-1)
+      temp.pop()
     else:
       return False
 
