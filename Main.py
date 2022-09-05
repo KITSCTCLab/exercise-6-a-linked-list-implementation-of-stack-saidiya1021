@@ -29,8 +29,8 @@ class Stack:
     """
     It prints all the elements of stack.
     """
-    for i in self.stack[]:
-      print(self.stack[i]"=>")
+    for i in self.stack:
+      print(i,"=>")
 
     
 # Do not change the following code
