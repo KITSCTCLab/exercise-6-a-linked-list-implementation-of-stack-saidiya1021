@@ -29,7 +29,7 @@ class Stack:
     """
     It prints all the elements of stack.
     """
-    for i in range self.stack:
+    for i in self.stack[]:
       print(self.stack[i]"=>")
 
     
