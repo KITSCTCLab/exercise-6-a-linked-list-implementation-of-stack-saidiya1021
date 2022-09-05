@@ -11,7 +11,7 @@ class Stack:
   def push(self, data) -> None:
    new_node=Node(data)
    new_node.next=self.head
-    self.head=new_node
+   self.head=new_node
 
   def pop(self) -> None:
    if self.head != "None":
@@ -22,11 +22,11 @@ class Stack:
     It prints all the elements of stack.
     """
     elements = []
-        current = self.head
-        while current:
-            elements.append(current.data)
-            current = current.next
-        print(elements,"=>")
+    current = self.head
+    while current:
+      elements.append(current.data)
+      current = current.next
+    print(elements,"=>")
 
     
 # Do not change the following code
