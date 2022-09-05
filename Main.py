@@ -7,13 +7,12 @@ class Node:
 class Stack:
   def __init__(self):
     self.head = None
-    self.stack=[]
 
   def push(self, data) -> None:
-    new_node=self.data
+    new_node=Node(data)
     if self.head != "None":
       new_node.next=self.head
-      self.stack.append(new_node)
+      new_node=self.data
     else:
       new_node.next=None
 
