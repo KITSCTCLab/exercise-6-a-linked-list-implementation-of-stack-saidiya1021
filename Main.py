@@ -14,19 +14,19 @@ class Stack:
    self.head=new_node
 
   def pop(self) -> None:
-    if not self.head is None:
+    if self.head != None:
       self.head=self.head.next
   
   def status(self):
     """
     It prints all the elements of stack.
     """
-    elements = ""
+    elements = ''
     current = self.head
-    while current != "None":
-      elements += str(current.data)
+    while current != None:
+      elements += str(current.data)+"=>"
       current = current.next
-    print(elements,"=>")
+    print(elements+None)
 
     
 # Do not change the following code
