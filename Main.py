@@ -26,7 +26,7 @@ class Stack:
     while current != None:
       elements += str(current.data)+"=>"
       current = current.next
-    print(elements+None)
+    print(elements+"None")
 
     
 # Do not change the following code
